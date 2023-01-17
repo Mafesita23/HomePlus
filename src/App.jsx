@@ -43,14 +43,14 @@ function App() {
       {theme === 'dark' ? '🌚' : '🌝'}
     </button>
       <div className="App">
-			<Navigation />
-      <Welcome />
-      <Categories />
-			<Aboutus />
-      <Rooms />
-      <Diningroom />
-      <Contact />
-      <Shoppingcart />
+		<Navigation />
+		<Welcome />
+		<Categories />
+		<Aboutus />
+		<Rooms />
+		<Diningroom />
+		<Contact />
+		<Shoppingcart />
       </div>
 		</>
 	);
