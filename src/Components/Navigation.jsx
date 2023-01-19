@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from '../assets/Images/Catalogo Comedores/1.jpg';
+import Logo from '../assets/Images/Logo hogar.png';
 
 
 
@@ -11,7 +11,7 @@ export default function Navigation() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                       <a href="https://flowbite.com/" class="flex items-center">
+                       <a href="#Aboutus" class="flex items-center">
                         <img src={Logo} class="h-6 mr-3 sm:h-20" alt="Logo" />
                          <span class="self-center text-xl font-semibold whitespace-nowrap text-teal-500">HogarPlus</span>
                           </a>
