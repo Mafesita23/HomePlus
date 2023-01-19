@@ -42,7 +42,8 @@ function App() {
     >
       {theme === 'dark' ? '🌚' : '🌝'}
     </button>
-      <div className="App">
+	<div className="bg-white dark:bg-slate-900 min-h-screen font-inter ">
+		<div className="max-w-5xl w-11/12 mx-auto">
 		<Navigation />
 		<Welcome />
 		<Categories />
@@ -52,6 +53,8 @@ function App() {
 		<Contact />
 		<Shoppingcart />
       </div>
+	  </div>
+
 		</>
 	);
 }
