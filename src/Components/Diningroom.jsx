@@ -1,16 +1,16 @@
 import React from "react";
-import Salahuevo from '../assets/Images/Catalogo salas/3.jpg';
-import Salahuevopv from '../assets/Images/Catalogo salas/4.jpg';
-import Salaroleer from '../assets/Images/Catalogo salas/5.jpg';
-import Salacapril from '../assets/Images/Catalogo salas/6.jpg';
-import Salascania from '../assets/Images/Catalogo salas/7.jpg';
-import Salariñonera from '../assets/Images/Catalogo salas/8.jpg';
-import Salariñonerasencilla from '../assets/Images/Catalogo salas/9.jpg';
-import Salaferrari from '../assets/Images/Catalogo salas/10.jpg';
-import Salaterranova from '../assets/Images/Catalogo salas/11.jpg';
-import Salastille from '../assets/Images/Catalogo salas/12.jpg';
-import Sillonpana from '../assets/Images/Catalogo salas/13.jpg';
-import Sillonodila from '../assets/Images/Catalogo salas/14.jpg';
+import Sillonlina1 from '../assets/Images/Catalogo Comedores/3.jpg';
+import Sillonmila1 from '../assets/Images/Catalogo Comedores/4.jpg';
+import Sillonpana1 from '../assets/Images/Catalogo Comedores/5.jpg';
+import Sillonodila1 from '../assets/Images/Catalogo Comedores/6.jpg';
+import Sillonlina2 from '../assets/Images/Catalogo Comedores/7.jpg';
+import Sillonmila2 from '../assets/Images/Catalogo Comedores/8.jpg';
+import Sillonpana2 from '../assets/Images/Catalogo Comedores/9.jpg';
+import Sillonodila2 from '../assets/Images/Catalogo Comedores/10.jpg';
+import Sillonlina3 from '../assets/Images/Catalogo Comedores/11.jpg';
+import Sillonmila3 from '../assets/Images/Catalogo Comedores/12.jpg';
+import Sillonpana3 from '../assets/Images/Catalogo Comedores/13.jpg';
+import Sillonodila3 from '../assets/Images/Catalogo Comedores/14.jpg';
 
 
 
@@ -21,15 +21,15 @@ export default function Diningroom() {
         <body class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-40 ">
     <div class="w-72 bg-white drop-shadow-md rounded-lg ">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salahuevo} />
+            src={Sillonlina1} width={300} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Huevo Sencilla</h3>
-            <h5> Sofá 1,50 m, huevo mecedora, huevo reclinable</h5>
+            <h3 class="text-lg">Sillón Lina </h3>
+            <h5> 6 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
             <p class="space-x-2">
-                <span class="text-2xl font-semibold">$1'800.000</span>
+                <span class="text-2xl font-semibold">$600.000</span>
             </p>
             <div class="flex justify-between items-center pt-3 pb-2">
                 <a href="#"
@@ -44,15 +44,16 @@ export default function Diningroom() {
     </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salahuevopv} />
+            src={Sillonmila1} 
+            width={180} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Huevo Carrito Portavasos</h3>
-            <h5>Sofá 1.20m vertical, huevo mecedora, huevo reclinable</h5>
+            <h3 class="text-lg">Sillon Mila</h3>
+            <h5>6 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
             <p class="space-x-2">
-                <span class="text-2xl font-semibold">$2'100.000</span>
+                <span class="text-2xl font-semibold">$700.000</span>
             </p>
             <div class="flex justify-between items-center pt-3 pb-2">
                 <a href="#"
@@ -67,15 +68,15 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salaroleer} />
+            src={Sillonpana1} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Roleer</h3>
-            <h5>Sofá dos puesto clásico, silla mecedora estructura cedro,mas silla estructura cedro fija</h5>
+            <h3 class="text-lg">Sillon pana</h3>
+            <h5>4 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
             <p class="space-x-2">
-                <span class="text-2xl font-semibold">$1'800.000</span>
+                <span class="text-2xl font-semibold">$800.000</span>
             </p>
             <div class="flex justify-between items-center pt-3 pb-2">
                 <a href="#"
@@ -89,15 +90,15 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salacapril} />
+            src={Sillonodila1} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Capri tipo L</h3>
-            <h5>sofá brazo dos puestos portavasos, sofá esquinero, dos potronas complemento</h5>
+            <h3 class="text-lg">Sillon Odila</h3>
+            <h5>4 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
             <p class="space-x-2">
-                <span class="text-2xl font-semibold">$1'950.000</span>
+                <span class="text-2xl font-semibold">$950.000</span>
             </p>
             <div class="flex justify-between items-center pt-3 pb-2">
                 <a href="#"
@@ -111,15 +112,15 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salascania} />
+            src={Sillonlina2}  width={180}/>
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Scania</h3>
-            <h5>sistema L modular chevillon, 3 módulos, reclinos apoya cabeza movil</h5>
+            <h3 class="text-lg">Sillon Lina</h3>
+            <h5>4 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
             <p class="space-x-2">
-                <span class="text-2xl font-semibold">$3'200.000</span>
+                <span class="text-2xl font-semibold">$700.000</span>
             </p>
             <div class="flex justify-between items-center pt-3 pb-2">
                 <a href="#"
@@ -133,10 +134,10 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salariñonera} />
+            src={Sillonmila2}  width={180} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Riñonera</h3>
-            <h5>3 modulos sin brazo, un esquinero, apoya cabezas,puff</h5>
+            <h3 class="text-lg">Sala Mila</h3>
+            <h5>6 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
@@ -155,10 +156,10 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salariñonerasencilla} />
+            src={Sillonpana2} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Riñonera Sencilla</h3>
-            <h5>3 módulos sencillos, sin apoya cabeza, puf redondo</h5>
+            <h3 class="text-lg">Sillon Pana</h3>
+            <h5>4 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
@@ -177,10 +178,10 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salaferrari} />
+            src={Sillonodila2} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Ferrari</h3>
-            <h5>3 módulos, brazo derecho e izquierdo, piernera, 4 cojines decorativos, puf baúl</h5>
+            <h3 class="text-lg">Sillon Odila</h3>
+            <h5>4 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
@@ -199,15 +200,15 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salaterranova} />
+            src={Sillonlina3} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Terranova</h3>
-            <h5>sofá clásico dos puestos, espaldar puestos, potronas clásicas brazos</h5>
+            <h3 class="text-lg">Sillon Lina </h3>
+            <h5>6 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
             <p class="space-x-2">
-                <span class="text-2xl font-semibold">$2'400.000</span>
+                <span class="text-2xl font-semibold">$800.000</span>
             </p>
             <div class="flex justify-between items-center pt-3 pb-2">
                 <a href="#"
@@ -221,15 +222,15 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Salastille} />
+            src={Sillonmila3} />
         <div class="px-5 py-3 space-y-2">
-            <h3 class="text-lg">Sala Stille Pata Madera</h3>
-            <h5>Sofá dos puestos, dos potronas clásicas, para madera.</h5>
+            <h3 class="text-lg">Sillón Mila</h3>
+            <h5>4 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
             <p class="space-x-2">
-                <span class="text-2xl font-semibold">$1'800.000</span>
+                <span class="text-2xl font-semibold">$700.000</span>
             </p>
             <div class="flex justify-between items-center pt-3 pb-2">
                 <a href="#"
@@ -243,15 +244,16 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Sillonpana} />
+            src={Sillonpana3} 
+            width={300}/>
         <div class="px-5 py-3 space-y-2">
             <h3 class="text-lg">Sillon Pana</h3>
-            <h5>ALTURA: 60,00 cm</h5>
+            <h5>4 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>
             <p class="space-x-2">
-                <span class="text-2xl font-semibold">$1'100.000</span>
+                <span class="text-2xl font-semibold">$900.000</span>
             </p>
             <div class="flex justify-between items-center pt-3 pb-2">
                 <a href="#"
@@ -265,10 +267,10 @@ export default function Diningroom() {
         </div>
     <div class="w-72 bg-white drop-shadow-md rounded-lg">
         <img class="object-cover rounded-tl-lg rounded-tr-lg"
-            src={Sillonodila} />
+            src={Sillonodila3} width={300}/>
         <div class="px-5 py-3 space-y-2">
             <h3 class="text-lg">Sillon Odila</h3>
-            <h5>Altura 80cm</h5>
+            <h5>4 puestos</h5>
             <div class="space-x-2">
                 <span class="px-3 py-0.5 border border-blue-500 text-[11px] text-blue-500">7 Day Return</span>
             </div>

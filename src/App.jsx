@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react';
 import Aboutus from './Components/Aboutus';
 import Welcome from './Components/Welcome';
 import Categories from './Components/Categories';
-import Rooms from './Components/Rooms';
-import Diningroom from './Components/Diningroom';
+import Rooms from './Components/Diningroom';
+import Diningroom from './Components/Rooms';
 import Contact from './Components/Contact';
 import Shoppingcart from './Components/Shoppingcart';
 import Navigation from './Components/Navigation';
+import SectionTitle from './Components/Sectiontitle';
 
 function App() {
 	const [theme, setTheme] = useState(null);
@@ -52,6 +53,8 @@ function App() {
 		<Diningroom />
 		<Contact />
 		<Shoppingcart />
+		<SectionTitle />
+
       </div>
 	  </div>
 
