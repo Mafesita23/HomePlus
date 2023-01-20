@@ -61,19 +61,19 @@ export default function Navigation() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-teal-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">¿Quienes somos?</a>
+                                <a href="#aboutus">¿Quienes somos?</a>
                             </li>
                             <li className="text-teal-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">Salas</a>
+                                <a href="#rooms">Salas</a>
                             </li>
                             <li className="text-teal-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">Comedores</a>
+                                <a href="#diningroom">Comedores</a>
                             </li>
                             <li className="text-teal-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">Contacto</a>
+                                <a href="#contact">Contacto</a>
                             </li>
                             <li className="text-teal-500 hover:text-blue-600">
-                                <a href="javascript:void(0)">Carrito de compras</a>
+                                <a href="#shoppingcart">Carrito de compras</a>
                             </li>
                         </ul>
                     </div>
