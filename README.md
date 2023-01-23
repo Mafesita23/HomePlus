@@ -7,7 +7,8 @@ finalmente sus productos, su carrito de compras.
 Este trabajo se realizo con metodologia SCRUM en donde tenemos la representacion del Backlog
 ![image (4)](https://user-images.githubusercontent.com/116750999/214137679-896268a4-d816-4daa-a5f7-ba92cd6c97d6.png)
 Tenemos el manejo de carta de HogarPlus
-![image (5)](https://user-images.githubusercontent.com/116750999/214137786-00c86565-1199-43f3-a0c1-884721cdd888.png)
+
+![image (5)](https://user-images.githubusercontent.com/116750999/214139292-eb157276-4555-4016-87e1-c000fd745522.png)
 
 La pagina se ve de la siguiente manera![image (1)](https://user-images.githubusercontent.com/116750999/214137937-618b442c-2cb2-4f6f-9a10-a252d95e21ee.png)
 
